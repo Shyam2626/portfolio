@@ -21,12 +21,12 @@ const CONFIG = {
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: ['Shyam2626/LeetCodeSolns', 'Shyam2626/GOG','Shyam2626/OOPS',
-                    'Shyam2626/RecursionSeries','Shyam2626/Java'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+                    'Shyam2626/RecursionSeries','Shyam2626/Java','Shyam2626/portfolio'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -37,7 +37,7 @@ const CONFIG = {
           title: 'LeetCode - Solutions',
           description:
             'The repo which contains my LeetCode solutions',
-          imageUrl:'src/assets/leetcode.png',
+          imageUrl:'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png',
           link: 'https://github.com/Shyam2626/LeetCodeSolns',
         },
         {
@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'The repo which contains my Geeks-For-Geeks solutions',
           imageUrl:
-            'src/assets/geeksforgeeks.png',
+            'https://cdn.icon-icons.com/icons2/3912/PNG/512/geeksforgeeks_logo_icon_248241.png',
           link: 'https://github.com/Shyam2626/GOG',
         },
       ],
@@ -66,7 +66,7 @@ const CONFIG = {
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '22283360/shyam-k', // example: '1/jeff-atwood'
     skype: '',
     telegram: 'SAM_JR26',
     website: 'https://portfolio-g5gs.onrender.com/',
