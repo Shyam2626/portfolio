@@ -75,7 +75,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/uc?id=1RG3CAPiwiFlFATUlIIwhk0RrbEU4PgVP&export=download', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.dropbox.com/scl/fi/wja6iz48k9ytmr1mpjqe1/resume-3.pdf?rlkey=8yp31zplhspvririiaviglknm&dl=0', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C','Python','Java','JavaScript',
