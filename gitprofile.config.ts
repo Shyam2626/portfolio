@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 20, // How many projects to display.
+        limit: 22, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: ['Shyam2626/LeetCodeSolns', 'Shyam2626/GOG','Shyam2626/OOPS',
@@ -75,17 +75,33 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.dropbox.com/scl/fi/wja6iz48k9ytmr1mpjqe1/resume-3.pdf?rlkey=8yp31zplhspvririiaviglknm&dl=0', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.dropbox.com/scl/fi/7cigcqhhyrso1nbmpqngi/shyamk-IT-Resume.pdf?rlkey=2qzhaan0m2uuxhmw9c7gnbrx8&st=8b5lgooj&dl=0', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'C','Python','Java','JavaScript',
+    'C','Python','Java','JavaScript','Kotlin',
     'HTML','CSS','Tailwind','Bootstrap',
     'Node.js','Express.js',
     'MySQL','PostgreSQL','MongoDB',
     'Git','Dart','Flutter',
-    'Spring-Boot','Ubuntu','Postman','Canva'
+    'Spring-Boot','Liquibase','Jooq','Hibernate','JDBC','Ubuntu','Postman','Canva',
+    'Rest-API', 'GraphQL'
   ],
   experiences: [
+
+    {
+      company: 'SuperOps',
+      position: 'Software Engineer',
+      from: 'Aug 2024',
+      to: 'Current',
+      companyLink: 'https://superops.com/',
+    },
+    {
+      company: 'Free Lancing',
+      position: 'Backend Developer',
+      from: 'Oct 2024',
+      to: 'Current',
+      companyLink: '',
+    },
     {
       company: 'Cognizant',
       position: 'Project - Intern',
@@ -93,24 +109,22 @@ const CONFIG = {
       to: 'July 2023',
       companyLink: 'https://www.cognizant.com/in/en',
     },
-    {
-      company: 'Code Clause',
-      position: 'Java Intern',
-      from: 'April 2023',
-      to: 'May 2023',
-      companyLink: 'https://internship.codeclause.com/',
-    },
   ],
   certifications: [
     {
-      name: 'Web Development',
-      year: 'March 2023',
-      link: 'https://www.udemy.com/certificate/UC-1ab09ef6-5dc5-4fc6-8a0e-4bd0455b81f6/',
+      name: 'Wipro TalentNext - Java Full Stack',
+      year: 'OCT 2024',
+      link: 'https://drive.google.com/file/d/1x_5ShkaGCsQxq1djXF-Ns0m2Hf6dLUVE/view?usp=sharing',
     },
     {
       name: 'NPTEL - Elite',
       year: 'October 2023',
       link: 'https://drive.google.com/file/d/1MUuxi9ervoakIof6TpdBIQq499ENbNF3/view?usp=sharing',
+    },
+    {
+      name: 'Web Development',
+      year: 'March 2023',
+      link: 'https://www.udemy.com/certificate/UC-1ab09ef6-5dc5-4fc6-8a0e-4bd0455b81f6/',
     },
     {
       name: 'British English Certificate',
